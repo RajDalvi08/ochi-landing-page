@@ -1,16 +1,54 @@
-# React + Vite
+Ochi Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ochi Landing Page is a modern, visually captivating, and fully responsive frontend prototype for a creative agency website. This project demonstrates the first-page design using React, Tailwind CSS, and Framer Motion to create smooth animations and interactive elements.
 
-Currently, two official plugins are available:
+🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive Design: Optimized for desktops, tablets, and mobile devices.
 
-## React Compiler
+Animated Elements: Eye-catching text and layout animations with Framer Motion.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Interactive UI Components: Eye-following animation, scrolling marque, and project showcase.
 
-## Expanding the ESLint configuration
+Modern Design Aesthetic: Glass-effect navbar, bold typography, and dynamic hero section.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend Prototype: Fully functional visuals without backend integration; buttons and links are placeholders for future functionality.
+
+🛠 Technologies
+
+React.js – Component-based UI development.
+
+Tailwind CSS – Utility-first responsive styling.
+
+Framer Motion – Smooth animation library for dynamic effects.
+
+React Icons – Scalable, customizable icons.
+
+🗂 Project Structure
+
+src/
+├─ components/
+│  ├─ Navbar.jsx
+│  ├─ LandingPage.jsx
+│  ├─ Marque.jsx
+│  ├─ Eyes.jsx
+│  ├─ Featured.jsx
+│  ├─ Cards.jsx
+│  ├─ About.jsx
+│  └─ Footer.jsx
+├─ App.jsx
+└─ index.js
+
+LandingPage.jsx: Hero section with animated headings and CTA button.
+
+Navbar.jsx: Fixed top navigation bar with glass-effect.
+
+Marque.jsx: Infinite scrolling text section.
+
+Eyes.jsx: Interactive eye-following animation.
+
+Featured.jsx & Cards.jsx: Showcase of projects or clients.
+
+About.jsx: Agency approach section.
+
+Footer.jsx: Contact information and social links.
